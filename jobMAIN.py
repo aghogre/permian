@@ -11,7 +11,7 @@ from mrt_Monster_data_sourcing import execution_monster
 import logging.handlers
 import logging
 import time
-import datetime
+from datetime import datetime
 from config import argument_config
 
 def get_logger(LOG_FORMAT     = '%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
