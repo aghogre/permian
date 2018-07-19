@@ -12,4 +12,4 @@ RUN apk add python-dev curl libxml2-dev libxslt-dev libffi-dev gcc musl-dev libg
 
 RUN pip install -r requirements.txt
 
-CMD ["/bin/bash", "-c", "source arguments.env && python jonMAIN.py"]
+CMD ["/bin/bash", "-c", "source arguments.env && python jobMAIN.py"]
