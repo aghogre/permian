@@ -9,7 +9,7 @@ Created on Fri Jul 13 11:24:46 2018
 import os
 
 argument_config = {
-        'mailhost': os.getenv('MAILHOST','gmail-smtp-msa.l.google.com'),
+        'mailhost': os.getenv('MAILHOST','smtp.gmail.com'),
         'fromaddr': os.getenv('FROMADDR','anshulghogre@gmail.com'),
         'toaddrs': os.getenv('TOADDRS','anshulghogre@gmail.com'),
         'subject': os.getenv('SUBJECT','u"Permian Job Sourcing App error!"'),
