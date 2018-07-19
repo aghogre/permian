@@ -31,7 +31,7 @@ def get_logger(LOG_FORMAT     = '%(asctime)s %(name)-12s %(levelname)-8s %(messa
         log.addHandler(file_handler_error)
         
     #email sending
-    smtp_handler = logging.handlers.SMTPHandler(mailhost=(argument_config.get('mailhost'), 25),
+    smtp_handler = logging.handlers.SMTPHandler(mailhost=(argument_config.get('mailhost'), 587),
                                             fromaddr=argument_config.get('fromaddr'), 
                                             toaddrs=argument_config.get('toaddrs'),
                                             subject=argument_config.get('subject'),
